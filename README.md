@@ -1,5 +1,11 @@
 # Version
+[![Coverage Status](https://img.shields.io/badge/Version-0.345-yellow.svg)](#)
 [![Coverage Status](https://img.shields.io/travis/rust-lang/rust.svg)](#)
+[![Coverage Status](https://img.shields.io/pypi/status/Django.svg)](#)
+[![Coverage Status](https://img.shields.io/badge/Latest%20Commit-False-red.svg)](#)
+[![Coverage Status](https://img.shields.io/wheelmap/a/2323004600.svg)](#)
+[![Coverage Status](https://img.shields.io/badge/PHP-5.6-blue.svg)](#)
+
 
 # FlyMo
 FlyMo is a PHP website that finds the cheapest flight ticket on given locations.
