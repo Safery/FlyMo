@@ -1,5 +1,5 @@
 # Version
-...
+[![Coverage Status](https://coveralls.io/repos/github/Safery/FlyMo/badge.svg?branch=master)](https://coveralls.io/github/Safery/FlyMo?branch=master)
 
 # FlyMo
 FlyMo is a PHP website that finds the cheapest flight ticket on given locations.
