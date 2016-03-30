@@ -6,6 +6,8 @@
 [![Coverage Status](https://img.shields.io/badge/Latest%20Commit-False-red.svg)](#)
 [![Coverage Status](https://img.shields.io/badge/PHP-5.6-blue.svg)](#)
 
+# Status
+FlyMo is currently being redesigned to be fully implemented using Ajax support. I am also waiting for a company to send me their API request so I can use their API on my algorithm.
 
 # FlyMo
 FlyMo main purpose is to create a fully functioning Web Application using various of API to compare flight tickets based on certain conditions and reveal to the users along with bunch of other useful information. Phase II of the project is to develop a functioning Android Application that is fully working modelof the web application along with various of other features such as push notifications and reminders. This project will be fully autonomous once finished. Feel free to use this Git for your personal use or business use.
