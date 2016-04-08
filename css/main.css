@@ -1,0 +1,116 @@
+#main_form {
+	margin-left: 30%;
+	margin-right: 30%;
+	margin-top: 15%;
+	overflow: auto;
+	position: fixed;
+	background-color:  #333d66;
+	border-radius: 15px;
+	height: 600px;
+	width: 600px;
+	color: white
+}
+
+#return_date, #to_location {
+	margin-left: 10%;
+    background: #323c67;
+	color: white;
+    border-radius: 20px;
+	border-color: #728EAA
+
+}
+
+#depart_date, #from_location {
+	margin-left: 10%;
+    background: #323c67;
+	color: white;
+    border-radius: 20px;
+	border-color: #728EAA
+}
+
+#return_date:focus, #to_location:focus,  #depart_date:focus, #from_location:focus  {
+    width: 270px;
+	background: #728EAA;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+	outline: none;
+}  
+
+#checkbox_1 {
+	margin-top: -5.5%;
+	margin-left: 10.8%;
+}
+
+#checkbox_2 {
+	margin-top: -3.4%;
+	margin-left: 30.5%;
+}
+
+#button {
+	margin-left: 30%;
+	margin-bottom: 3.3%;
+}
+
+/*html {  */
+/* background: url(http://p1.pichost.me/i/51/1750849.jpg) no-repeat center center fixed; */
+/* -webkit-background-size: cover; */
+/* -moz-background-size: cover; */
+/* -o-background-size: cover; */
+/* background-size: cover; */
+/*} */
+
+html {
+	background: #1f253d;
+}
+
+/* Loader */
+.loading {
+	height: 200px;
+	padding-top: 35px;
+}
+.loading p {
+	display: inline-block;
+	padding-left: 250px;
+	margin: 5px 0 20px;
+}
+.loading .icon {
+	padding-right: 15px;
+}
+.loading #percent{
+	float: right;
+	padding: 6px 35px 0 0;
+}
+
+.loading .progress-bar {
+	width: 250px;
+	height: 20px;
+	background: #50597b;
+	border-radius: 5px;
+	margin: 0 auto;
+}
+.progress-bar.downloading {
+	background: -webkit-linear-gradient(left, #11a8ab 0%,#50597b 0%); /* Chrome10+,Safari5.1+ */
+	background: -ms-linear-gradient(left, #11a8ab 0%,#50597b 0%); /* IE10+ */
+	background: linear-gradient(to right, #11a8ab 0%,#50597b 0%); /* W3C */
+}
+
+#loader{
+	display:none;
+}
+
+/* CSS for the results start here*/
+#result_content{
+	color: white;
+}
+.line-chart-block {
+	height: 400px;
+}
+.line-chart {
+	height: 200px;
+	width: 280px;
+	background: #11a8ab;
+}
+
+#alert_box{
+	display: none;
+}
