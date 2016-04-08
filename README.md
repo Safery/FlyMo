@@ -42,3 +42,9 @@ When Algorithm gets all the Inputs, It will use those information to get pricing
         2. Write into your ~/.profile file the following `export PATH=/usr/local/php5/bin:$PATH`
 2. MYSQL Server
 3. Google Flight API
+4. UiKit module
+5. AJAX 1.12.0 module
+6. JQuery module
+7. plotly module
+8. Pikaday (Javascript) module
+9. MomentsJS module
