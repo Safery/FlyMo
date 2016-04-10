@@ -53,7 +53,11 @@
 			</div>
 		</div>
 		<div id="result_content">
-			<div id="myDiv" style="width: 480px; height: 400px;"><!-- Plotly chart will be drawn inside this DIV --></div>
+			<div class="uk-animation-scale-up" id="main_area">
+				<h1 id="ticket_title"> Ticket Information </h1>
+				<div id="routes"> </div>
+				<p id="price"> price </p>
+			</div>
 		</div>
     <script src="http://dbushell.github.io/Pikaday/pikaday.js"></script>
     <script>
@@ -78,6 +82,7 @@
 		
 		$("#main_form").submit(function(){
 			event.preventDefault();
+
 		});
 
     </script>
