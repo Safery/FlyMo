@@ -39,9 +39,30 @@ function FindFlights(){
 			   setTimeout(function(){
 				document.getElementById("main_area").className = "uk-animation-scale-up uk-animation-reverse";
 			   }, 1000);
-			   alert(xmlhttp.responseText);
-			   alert(new Date(timestamp.getTime() + interval*1000));
-			   //Create_Graph(obj[0]);			   
+			   
+			   // Make the response generation area appear
+			   document.getElementById("result_content").className = "uk-animation-scale-up";
+			   setTimeout(function(){
+			   document.getElementById("result_content").style.display = "block";
+			   }, 1000);
+			   
+			   //---------- GENERATING AJAX RESPONSE START HERE ---------------
+			   	var obj = JSON.parse(xmlhttp.responseText);
+				// Set the location to location data with the title
+				document.getElementById("ticket_title").innerHTML = "Ticket Information - " + obj['location'];
+				
+				// Set the airports
+				var sel_route_element = document.getElementById("routes");
+				var key;
+				for(key in obj['route']){
+					var p = document.createElement('p');
+					p.innerHTML = obj['route'][key];
+					sel_route_element.appendChild(p);
+				}
+				
+				//Set the price
+				document.getElementById("price").innerHTML = "<b><font color='red'>Price: </font></b> $" + obj['price'];
+			   //---------- GENERATING AJAX RESPONSE ENDS HERE ---------------
            }
            else if(xmlhttp.status == 400) {
               alert('There was an error 400');
