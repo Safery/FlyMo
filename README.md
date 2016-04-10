@@ -6,8 +6,14 @@
 [![Coverage Status](https://img.shields.io/badge/Latest%20Commit-False-red.svg)](#)
 [![Coverage Status](https://img.shields.io/badge/PHP-5.6-blue.svg)](#)
 
-# Status
-Code being rewritten with AJAX support.
+# Recent Changes
+Updated 2016-04-09
+   * Created new box that shows the result of flights in index
+   * There is now an animation delay between the result and the main input box
+   * animation is added when result is being generated onto index.php
+   * code now works 100% with Google Fligh API.
+   * Fixed bugs where php would import unwanted 'time' values into json which would make JS flip out.
+
 
 # FlyMo
 FlyMo main purpose is to create a fully functioning Web Application using various of API to compare flight tickets based on certain conditions and reveal to the users along with bunch of other useful information. Phase II of the project is to develop a functioning Android Application that is fully working modelof the web application along with various of other features such as push notifications and reminders. This project will be fully autonomous once finished. Feel free to use this Git for your personal use or business use.
